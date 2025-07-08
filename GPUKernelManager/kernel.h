@@ -1,5 +1,7 @@
 #pragma once
 
-namespace GPUKernel {
+#include <cstddef>
 
+namespace GPUKernel {
+    void* tryAlloc(std::size_t arrBytes);
 }
